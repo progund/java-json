@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"se.itu.brewdog.beer","l":"Beer"},{"p":"se.itu.brewdog.beer","l":"BeerFetcher"},{"p":"se.itu.brewdog.main","l":"Main"},{"p":"se.itu.brewdog.gui","l":"MainFrame"}]
