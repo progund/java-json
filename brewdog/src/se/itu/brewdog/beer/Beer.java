@@ -35,6 +35,19 @@ public class Beer {
     return Collections.unmodifiableList(foods);
   }
 
+  /**
+   * Returns a String representaion of a Beer on the format
+   * <pre>
+   * Buzz
+   * "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once."
+   * 4.50% abv
+   * Suitable to drink with:
+   * * Spicy chicken tikka masala
+   * * Grilled chicken quesadilla
+   * * Caramel toffee cake
+   * </pre>
+   * @return This Beer, as a String
+   */
   @Override
   public String toString() {
     return new StringBuilder(name)
